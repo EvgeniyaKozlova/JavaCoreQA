@@ -12,7 +12,8 @@ public class FoodGames {
         Team team = new Team("Обжорки", comp);
 
         Competition day1 = new Competition(5,8);
-        day1.round(team);
+        String info = day1.round(team);
+        System.out.println(info);
 
 
 
